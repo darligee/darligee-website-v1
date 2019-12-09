@@ -1,0 +1,209 @@
+body{
+	margin: unset;
+	padding: unset;
+}
+.container-fluid{
+	padding: unset;
+}
+.side-div{
+	background-color: #ffffff;
+	min-height: 100%;
+	float: left;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+.main-div{
+	background-color: #07dde4;
+	overflow: hidden;
+	float: right;
+	padding: unset;
+}
+div{
+	margin: unset;
+	padding: unset;
+}
+.side-div img{
+	position: absolute;
+	top: 2px;	
+}
+.side-div ul{
+	margin-top: 450px;
+	position: sticky;
+	list-style-type: none;
+	padding: 15px;
+}
+.side-div ul li{
+	margin: 5px 15px;
+	padding: 5px;
+	display: block;
+}
+.side-div ul li a{
+	text-shadow: 6px 6px 2px #effaff;
+	color: #555958;
+	text-decoration: none;
+	font-size: 18px;
+}
+.side-div ul li a:hover{
+	text-shadow: 2px 2px 1px #effaff;
+}
+.header-div{
+	padding: 15px 5%;
+}
+#hire-btn{
+	padding: 10px 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  border-width: 1px;
+  text-decoration: none;
+  background-color: #effaff;
+  box-shadow: 2px 2px 3px 3px rgba(227, 245, 243, 0.77);
+  color: #000;
+  font-weight: bold;
+  border-color: transparent;
+}
+#hire-btn:hover{
+	box-shadow: 1px 1px 2px 1px rgba(227, 245, 243, 0.77);
+}
+.banner-div{
+	padding: 15px 5%;
+	margin: 30px 0;
+}
+
+.sliding-img_1{
+	background-size: contain;
+	background-origin: padding-box;
+	background-repeat: no-repeat;
+	background-image: url(../img/darlo_1.jpg);
+	background-position: center;
+	height: 350px;
+	width: 100%;
+}
+.sliding-img_2{
+	background-size: contain;
+	background-origin: padding-box;
+	background-repeat: no-repeat;
+	background-image: url(../img/slide_4.jpg);
+	background-position: center;
+	height: 350px;
+	width: 100%;
+}
+.btn-more{
+	padding: 10px 15px;
+	background-color: #007196;
+  color: #ffffff;
+  border-radius: 30px;
+  outline: none;
+}
+
+.btn-more:hover{
+	
+	box-shadow: 2px 2px 2px 1px rgba(60, 134, 197, 0.38);
+	transition-delay: 0.1s;
+}
+.btn-more:active{
+	outline: none;
+}
+.short-intro{
+	padding: 15px 5px;
+}
+.short-intro h2{
+	color: #333;
+  letter-spacing: 1.6px;
+  text-shadow: 2px 3px 2px #c5c3c3;
+}
+.short-intro p{
+	color: #000;
+  padding: 15px 0 20px;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+}
+a{
+	text-decoration: none;
+}
+a:focus, a:hover{
+	outline: unset;
+	outline-offset: unset;
+	text-decoration: none;
+}
+.panel{
+	background-color: #007196;
+	box-shadow: 4px 7px 5px rgba(51, 122, 183, 0.30);
+}
+.panel:hover{
+	box-shadow: 0 5px 4px rgba(51, 122, 183, 0.30);
+	animation-duration: 0.1s;
+}
+.tabs-cont{
+	margin: 10px 10%;
+}
+.tab-card{
+	color: #ffffff;
+}
+
+.tab-card h5{
+	text-decoration: none;
+	color: #ffffff;
+	letter-spacing: 1.5px;
+}
+.footer{
+	background-color: #ffffff;
+	padding: 10px 0;
+	color: #333;
+}
+.footer p{
+	margin: unset;
+	letter-spacing: 1.5px;
+	padding: 0 10px;
+}
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+.carousel.vertical .active {
+  top: 0;
+}
+
+.carousel.vertical .next {
+  top: 100%;
+}
+
+.carousel.vertical .prev {
+  top: -100%;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+.carousel.vertical .active.left {
+  top: -100%;
+}
+
+.carousel.vertical .active.right {
+  top: 100%;
+}
+
+.carousel.vertical .item {
+  left: 0;
+}​
+.banner-img .carousel .img-indicators  li{
+	width: 13px !important;
+	display: block !important;
+	height: 13px !important;
+	border-color: unset !important;
+} 
+.banner-img .carousel .carousel-indicators {
+	right: -30px !important;
+	width: 20px !important;
+	margin: unset !important;
+	left: unset !important;
+}
